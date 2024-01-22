@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bank-one-1dec0": {
+      "hosting": {
+        "bank-one": [
+          "bank-one-1dec0"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bank-one-1dec0"
+  }
+}
