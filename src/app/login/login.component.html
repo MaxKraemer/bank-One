@@ -1,0 +1,27 @@
+<div class="login-container">
+    <div routerLink="/menu" class="logo">
+      <img src="assets/images/logo.png" alt="">
+    </div>
+    <div class="login-area">
+      <div class="login-field">
+        <div class="login-text">
+          <h1>Login</h1>
+        </div>
+        <form>
+          <div class="email-field">
+            <input formControlName="email" type="text">
+            <div class="email-text">Konto E-Mail</div>
+          </div>
+          <div class="password-field">
+            <input formControlName="password" type="password">
+            <div class="password-text">Pin</div>
+          </div>
+        </form>
+        <div class="login-button">
+          <button (click)="loginUser()" type="button" name="button">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
